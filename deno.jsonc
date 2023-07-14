@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "dev": "deno run -A main.ts",
+    "migrate": "deno run -A npm:drizzle-kit generate:sqlite"
+  }
+}
